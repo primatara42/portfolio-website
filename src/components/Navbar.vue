@@ -8,7 +8,7 @@ import logo from "../assets/icons/logo.svg";
 
       <ul class="hidden text-text md:flex gap-5">
         <li>
-          <RouterLink>About</RouterLink>
+          <RouterLink to="about">About</RouterLink>
         </li>
         <li>
           <RouterLink>Experience</RouterLink>
