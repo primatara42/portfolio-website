@@ -13,7 +13,7 @@ import ExperienceCard from "../components/ExperienceCard.vue";
         laboriosam dolorum, sed quas soluta aspernatur veniam aperiam maiores
         officiis.
       </p>
-      <div>
+      <div class="flex flex-col md:px-6 md:py-10">
         <ExperienceCard />
       </div>
     </div>
