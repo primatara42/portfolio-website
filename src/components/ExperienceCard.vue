@@ -7,7 +7,7 @@ import sertificate_isysrg from "../assets/Sertificate_IsysRG.png";
 </script>
 <template>
   <div
-    class="flex flex-col gap-y-5 md:flex-row md:gap-10 md:flex-wrap md:justify-between"
+    class="flex flex-col gap-y-5 md:flex-row md:gap-10 md:flex-wrap md:justify-evenly"
   >
     <div
       class="flex justify-between bg-text rounded-md px-3 py-3 gap-2 md:flex-col md:items-center md:w-72"
