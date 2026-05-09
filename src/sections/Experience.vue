@@ -7,7 +7,7 @@ import ExperienceCard from "../components/ExperienceCard.vue";
       <h1 class="text-text items-center text-center font-bold text-3xl">
         Experience
       </h1>
-      <p class="text-text text-sm text-center font-normal">
+      <p class="text-text text-base text-center font-normal">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui architecto
         assumenda officiis ipsam cumque eveniet fuga! Itaque earum, quisquam non
         laboriosam dolorum, sed quas soluta aspernatur veniam aperiam maiores
