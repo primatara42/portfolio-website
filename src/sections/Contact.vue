@@ -26,7 +26,7 @@ import contact_image_background from "../assets/contact_image_background.png";
       <h3 class="text-primary font-bold">+62 819 5830 5632</h3>
     </div>
 
-    <div class="md:flex md:items-center md:justify-between">
+    <div class="md:flex md:items-center md:justify-center md:gap-x-6">
       <div class="hidden md:flex md:w-100">
         <img :src="contact_image_background" alt="" />
       </div>
