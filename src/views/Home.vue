@@ -10,4 +10,5 @@ import Skills from "../sections/Skills.vue";
   <About />
   <Experience />
   <Education />
+  <Skills />
 </template>
