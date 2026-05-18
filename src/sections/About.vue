@@ -22,13 +22,13 @@ import profile_picture from "../assets/profile-picture.png";
       </div>
       <div class="flex">
         <p class="text-text text-sm text-center font-normal">
-          Lulusan Sistem Komputer Universitas Sriwijaya dengan pemahaman yang
-          baik dalam pengelolaan dan pengembangan aplikasi berbasis web dan
-          mobile. Memiliki pengalaman dalam implementasi, pemeliharaan, dan
-          pengujian aplikasi menggunakan teknologi seperti Laravel, Vue JS,
-          React JS, Tailwind CSS dan React Native. Memahami konsep RESTful API,
-          dasar UI/UX, serta mampu melakukan troubleshooting dan dukungan teknis
-          terhadap pengguna.
+          Lulusan Sistem Komputer Universitas Sriwijaya yang memiliki
+          ketertarikan dan pengalaman di bidang Web Development, Internet of
+          Things (IoT), dan UI/UX Design. Terbiasa mengembangkan aplikasi web
+          modern menggunakan Tailwind CSS, React JS, Vue JS, PHP, Laravel, dan
+          MySQL, serta memiliki pengalaman dalam merancang dan
+          mengimplementasikan proyek IoT berbasis perangkat cerdas dan
+          komunikasi data.
         </p>
       </div>
       <button class="text-text w-36 bg-primary px-7 py-3 rounded-full mx-auto">
@@ -45,13 +45,13 @@ import profile_picture from "../assets/profile-picture.png";
           >
         </h1>
         <p class="text-text text-base font-normal">
-          Lulusan Sistem Komputer Universitas Sriwijaya dengan pemahaman yang
-          baik dalam pengelolaan dan pengembangan aplikasi berbasis web dan
-          mobile. Memiliki pengalaman dalam implementasi, pemeliharaan, dan
-          pengujian aplikasi menggunakan teknologi seperti Laravel, Vue JS,
-          React JS, Tailwind CSS dan React Native. Memahami konsep RESTful API,
-          dasar UI/UX, serta mampu melakukan troubleshooting dan dukungan teknis
-          terhadap pengguna.
+          Lulusan Sistem Komputer Universitas Sriwijaya yang memiliki
+          ketertarikan dan pengalaman di bidang Web Development, Internet of
+          Things (IoT), dan UI/UX Design. Terbiasa mengembangkan aplikasi web
+          modern menggunakan Tailwind CSS, React JS, Vue JS, PHP, Laravel, dan
+          MySQL, serta memiliki pengalaman dalam merancang dan
+          mengimplementasikan proyek IoT berbasis perangkat cerdas dan
+          komunikasi data.
         </p>
       </div>
       <div>
