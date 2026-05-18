@@ -10,16 +10,16 @@ import logo from "../assets/icons/logo.svg";
 
       <ul class="hidden text-text md:flex gap-5">
         <li>
-          <RouterLink to="about">About</RouterLink>
+          <a href="#about">About</a>
         </li>
         <li>
-          <RouterLink>Experience</RouterLink>
+          <a href="#experience">Experience</a>
         </li>
         <li>
-          <RouterLink>Educations</RouterLink>
+          <a href="#educations">Educations</a>
         </li>
         <li>
-          <RouterLink>Skills</RouterLink>
+          <a href="#skills">Skills</a>
         </li>
       </ul>
       <a

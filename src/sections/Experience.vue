@@ -2,7 +2,7 @@
 import ExperienceCard from "../components/ExperienceCard.vue";
 </script>
 <template>
-  <section class="bg-background px-6 py-10">
+  <section id="experience" class="bg-background px-6 py-10">
     <div class="text-text flex flex-col gap-6">
       <h1 class="text-text items-center text-center font-bold text-3xl">
         Experience

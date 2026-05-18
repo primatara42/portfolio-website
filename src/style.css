@@ -4,3 +4,7 @@
   --color-primary: #ff3f7f;
   --color-text: #fcf8f8;
 }
+
+html {
+  scroll-behavior: smooth;
+}

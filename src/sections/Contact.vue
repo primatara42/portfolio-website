@@ -4,7 +4,7 @@ import phone_icon from "../assets/icons/phone-icon.svg";
 import contact_image_background from "../assets/contact_image_background.png";
 </script>
 <template>
-  <section class="bg-background px-6 py-10">
+  <section id="contact" class="bg-background px-6 py-10">
     <h1 class="text-text items-center text-center font-bold text-3xl mb-6">
       Let’s get in touch!
     </h1>
