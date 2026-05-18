@@ -2,7 +2,9 @@
 import logo from "../assets/icons/logo.svg";
 </script>
 <template>
-  <nav class="bg-background px-6 py-5">
+  <nav
+    class="fixed top-0 left-0 w-full z-50 bg-background/80 backdrop-blur-md px-6 py-5 md:px-8 md:py-7"
+  >
     <div class="flex justify-between items-center">
       <img :src="logo" alt="" class="w-44" />
 
