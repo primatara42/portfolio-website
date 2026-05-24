@@ -113,7 +113,7 @@ const skills = [
 ];
 </script>
 <template>
-  <section id="skills" class="bg-background px-6 pt-17 pb-10">
+  <section id="skills" class="bg-background px-6 pt-17 pb-10 md:pt-25">
     <h1 class="text-text items-center text-center font-bold text-3xl">
       Skills
     </h1>

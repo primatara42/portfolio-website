@@ -2,10 +2,7 @@
 import profile_picture from "../assets/profile-picture.png";
 </script>
 <template>
-  <main
-    id="about"
-    class="bg-background px-6 pt-5 pb-10 md:px-14 md:pt-30 md:pb-12"
-  >
+  <main id="about" class="bg-background px-6 pt-5 pb-10 md:px-14 md:pt-15">
     <div class="flex flex-col gap-6 md:hidden">
       <h1 class="text-text items-center text-center font-bold text-3xl">
         Hello<span class="text-primary">!</span> My Name Is <br /><span
