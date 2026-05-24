@@ -63,63 +63,89 @@ const toggleMenu = () => {
 
       <!-- Hamburger Button -->
       <button @click="toggleMenu" class="md:hidden text-text">
-        <!-- Hamburger Icon -->
-        <img
-          v-if="!isMenuOpen"
-          :src="hamburger_icon"
-          alt="Hamburger Menu"
-          class="w-7 h-7"
-        />
+        <Transition
+          mode="out-in"
+          enter-active-class="transition-all duration-300 ease-out"
+          enter-from-class="opacity-0 rotate-[-90deg] scale-75"
+          enter-to-class="opacity-100 rotate-0 scale-100"
+          leave-active-class="transition-all duration-300 ease-in"
+          leave-from-class="opacity-100 rotate-0 scale-100"
+          leave-to-class="opacity-0 rotate-90 scale-75"
+        >
+          <!-- Hamburger Icon -->
+          <img
+            v-if="!isMenuOpen"
+            :src="hamburger_icon"
+            alt="Hamburger Menu"
+            class="w-7 h-7"
+            key="hamburger"
+          />
 
-        <!-- Close Icon -->
-        <img v-else :src="close_icon" alt="Close Icon" class="w-7 h-7" />
+          <!-- Close Icon -->
+          <img
+            v-else
+            :src="close_icon"
+            alt="Close Icon"
+            class="w-7 h-7"
+            key="close"
+          />
+        </Transition>
       </button>
     </div>
 
     <!-- Mobile Menu -->
-    <div
-      v-if="isMenuOpen"
-      class="absolute top-full left-0 w-full flex flex-col gap-5 bg-background/80 backdrop-blur-md border-t border-white/10 px-6 py-6 text-text shadow-xl md:hidden"
+    <Transition
+      enter-active-class="transition duration-300 ease-out"
+      enter-from-class="opacity-0 -translate-y-5"
+      enter-to-class="opacity-100 translate-y-0"
+      leave-active-class="transition duration-300 ease-in"
+      leave-from-class="opacity-100 translate-y-0"
+      leave-to-class="opacity-0 -translate-y-5"
     >
-      <a
-        href="#about"
-        class="hover:text-primary transition duration-300"
-        @click="isMenuOpen = false"
+      <div
+        v-if="isMenuOpen"
+        class="absolute top-full left-0 w-full flex flex-col gap-5 bg-background/80 backdrop-blur-md border-t border-white/10 px-6 py-6 text-text shadow-xl md:hidden"
       >
-        About
-      </a>
+        <a
+          href="#about"
+          class="hover:text-primary transition duration-300"
+          @click="isMenuOpen = false"
+        >
+          About
+        </a>
 
-      <a
-        href="#experience"
-        class="hover:text-primary transition duration-300"
-        @click="isMenuOpen = false"
-      >
-        Experience
-      </a>
+        <a
+          href="#experience"
+          class="hover:text-primary transition duration-300"
+          @click="isMenuOpen = false"
+        >
+          Experience
+        </a>
 
-      <a
-        href="#educations"
-        class="hover:text-primary transition duration-300"
-        @click="isMenuOpen = false"
-      >
-        Educations
-      </a>
+        <a
+          href="#educations"
+          class="hover:text-primary transition duration-300"
+          @click="isMenuOpen = false"
+        >
+          Educations
+        </a>
 
-      <a
-        href="#skills"
-        class="hover:text-primary transition duration-300"
-        @click="isMenuOpen = false"
-      >
-        Skills
-      </a>
+        <a
+          href="#skills"
+          class="hover:text-primary transition duration-300"
+          @click="isMenuOpen = false"
+        >
+          Skills
+        </a>
 
-      <a
-        href="#contact"
-        class="bg-primary text-center py-3 rounded-full hover:opacity-90 transition duration-300"
-        @click="isMenuOpen = false"
-      >
-        Contact
-      </a>
-    </div>
+        <a
+          href="#contact"
+          class="bg-primary text-center py-3 rounded-full hover:opacity-90 transition duration-300"
+          @click="isMenuOpen = false"
+        >
+          Contact
+        </a>
+      </div>
+    </Transition>
   </nav>
 </template>
