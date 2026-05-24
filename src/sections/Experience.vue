@@ -2,7 +2,11 @@
 import ExperienceCard from "../components/ExperienceCard.vue";
 </script>
 <template>
-  <section id="experience" class="bg-background px-6 pt-17 pb-10 md:pt-25">
+  <section
+    v-scroll-reveal
+    id="experience"
+    class="bg-background px-6 pt-17 pb-10 md:pt-25"
+  >
     <div class="text-text flex flex-col gap-6">
       <h1 class="text-text items-center text-center font-bold text-3xl">
         Experience
