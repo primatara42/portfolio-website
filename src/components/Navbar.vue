@@ -1,6 +1,8 @@
 <script setup>
-import { ref } from "vue";
+import { ref, onMounted, onUnmounted } from "vue";
 import logo from "../assets/icons/logo.svg";
+import hamburger_icon from "../assets/icons/hamburger-menu.svg";
+import close_icon from "../assets/icons/close.svg";
 
 const isMenuOpen = ref(false);
 
@@ -61,27 +63,23 @@ const toggleMenu = () => {
 
       <!-- Hamburger Button -->
       <button @click="toggleMenu" class="md:hidden text-text">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
+        <!-- Hamburger Icon -->
+        <img
+          v-if="!isMenuOpen"
+          :src="hamburger_icon"
+          alt="Hamburger Menu"
           class="w-7 h-7"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M4 6h16M4 12h16M4 18h16"
-          />
-        </svg>
+        />
+
+        <!-- Close Icon -->
+        <img v-else :src="close_icon" alt="Close Icon" class="w-7 h-7" />
       </button>
     </div>
 
     <!-- Mobile Menu -->
     <div
       v-if="isMenuOpen"
-      class="absolute top-full left-0 w-full bg-background/95 backdrop-blur-md border-t border-white/10 px-6 py-6 flex flex-col gap-5 text-text shadow-xl md:hidden"
+      class="absolute top-full left-0 w-full flex flex-col gap-5 bg-background/80 backdrop-blur-md border-t border-white/10 px-6 py-6 text-text shadow-xl md:hidden"
     >
       <a
         href="#about"
