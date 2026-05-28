@@ -14,7 +14,9 @@ defineProps({
 });
 </script>
 <template>
-  <div class="bg-background border-2 rounded-xl border-gray-600 p-5">
+  <div
+    class="bg-background border-2 rounded-xl border-gray-600 p-5 w-full md:w-[80%]"
+  >
     <div class="w-15 py-5"><img :src="icon" alt="" /></div>
     <h1 class="font-bold text-text text-base my-2">{{ title }}</h1>
     <div class="flex flex-col gap-y-2 my-2">

@@ -72,9 +72,7 @@ const experiences = [
         laboriosam dolorum, sed quas soluta aspernatur veniam aperiam maiores
         officiis.
       </p>
-      <div
-        class="flex flex-col gap-y-5 md:flex-row md:gap-10 md:flex-wrap md:justify-evenly"
-      >
+      <div class="flex flex-col items-center gap-y-5 md:gap-10">
         <ExperienceCard
           v-for="experience in experiences"
           :key="experience.title"
