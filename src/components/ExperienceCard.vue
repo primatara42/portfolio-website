@@ -1,91 +1,41 @@
 <script setup>
-import profile_picture from "../assets/profile-picture.png";
-import sertificate_pdam from "../assets/Sertificate_PdamInternship.png";
-import sertificate_assistant_lecturer from "../assets/Sertificate_LecturerAssistant.png";
-import sertificate_gdsc from "../assets/Sertificate_GdscGraduate.png";
-import sertificate_isysrg from "../assets/Sertificate_IsysRG.png";
+import organization_icon from "../assets/icons/organization_icon.svg";
+import type_work_icon from "../assets/icons/type_work_icon.svg";
+import duration_icon from "../assets/icons/duration_svg.svg";
+defineProps({
+  title: String,
+  icon: String,
+  certificate: String,
+  organization: String,
+  type: String,
+  date: String,
+  description: String,
+  todos: Array,
+});
 </script>
 <template>
-  <div
-    class="flex flex-col gap-y-5 md:flex-row md:gap-10 md:flex-wrap md:justify-evenly"
-  >
-    <div
-      class="flex justify-between bg-text rounded-md px-3 py-3 gap-2 md:flex-col md:items-center md:w-72"
-    >
-      <div class="w-28 h-28 overflow-hidden rounded-xl md:w-full md:h-auto">
-        <img
-          :src="sertificate_isysrg"
-          alt=""
-          class="w-full h-full object-cover"
-        />
+  <div class="bg-background border-2 rounded-xl border-gray-600 p-5">
+    <div class="w-15 py-5"><img :src="icon" alt="" /></div>
+    <h1 class="font-bold text-text text-base my-2">{{ title }}</h1>
+    <div class="flex flex-col gap-y-2 my-2">
+      <div class="flex gap-x-2">
+        <div><img :src="organization_icon" alt="" /></div>
+        <h3 class="text-sm">{{ organization }}</h3>
       </div>
-      <div
-        class="w-[50%] text-background text-[0.6rem] flex flex-col justify-between items-center md:w-auto md:text-base md:gap-y-5"
-      >
-        <h1 class="text-center font-bold">
-          Member of GDSC (Google Development Student Club) Front End Web
-          Development Divison
-        </h1>
-        <p class="font-semibold">Community | Aug - Nov 24</p>
-
-        <button
-          class="w-full text-text bg-primary px-5 py-1 rounded-full md:w-32 md:py-2"
-        >
-          Detail
-        </button>
+      <div class="flex gap-x-2">
+        <div><img :src="type_work_icon" alt="" /></div>
+        <h3 class="text-sm">{{ type }}</h3>
+      </div>
+      <div class="flex gap-x-2">
+        <div><img :src="duration_icon" alt="" /></div>
+        <h3 class="text-sm">{{ date }}</h3>
       </div>
     </div>
-    <div
-      class="flex justify-between bg-text rounded-md px-3 py-3 gap-2 md:flex-col md:items-center md:w-72"
-    >
-      <div class="w-28 h-28 overflow-hidden rounded-xl md:w-full md:h-auto">
-        <img
-          :src="sertificate_gdsc"
-          alt=""
-          class="w-full h-full object-cover"
-        />
-      </div>
-      <div
-        class="w-[50%] text-background text-[0.6rem] flex flex-col justify-between items-center md:w-auto md:text-base md:gap-y-5"
-      >
-        <h1 class="text-center font-bold">
-          Member of GDSC (Google Development Student Club) Front End Web
-          Development Divison
-        </h1>
-        <p class="font-semibold">Community | Aug - Nov 24</p>
 
-        <button
-          class="w-full text-text bg-primary px-5 py-1 rounded-full md:w-32 md:py-2"
-        >
-          Detail
-        </button>
-      </div>
-    </div>
-    <div
-      class="flex justify-between bg-text rounded-md px-3 py-3 gap-2 md:flex-col md:items-center md:w-72"
+    <button
+      class="w-full text-text bg-primary px-5 py-2 rounded-full font-medium md:w-32 md:py-2"
     >
-      <div class="w-28 h-28 overflow-hidden rounded-xl md:w-full md:h-auto">
-        <img
-          :src="sertificate_assistant_lecturer"
-          alt=""
-          class="w-full h-full object-cover"
-        />
-      </div>
-      <div
-        class="w-[50%] text-background text-[0.6rem] flex flex-col justify-between items-center md:w-auto md:text-base md:gap-y-5"
-      >
-        <h1 class="text-center font-bold">
-          Member of GDSC (Google Development Student Club) Front End Web
-          Development Divison
-        </h1>
-        <p class="font-semibold">Community | Aug - Nov 24</p>
-
-        <button
-          class="w-full text-text bg-primary px-5 py-1 rounded-full md:w-32 md:py-2"
-        >
-          Detail
-        </button>
-      </div>
-    </div>
+      Detail
+    </button>
   </div>
 </template>
