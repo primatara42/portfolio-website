@@ -1,7 +1,7 @@
 <script setup>
 import organization_icon from "../assets/icons/organization_icon.svg";
 import type_work_icon from "../assets/icons/type_work_icon.svg";
-import duration_icon from "../assets/icons/duration_svg.svg";
+import duration_icon from "../assets/icons/duration.svg";
 defineProps({
   title: String,
   icon: String,
@@ -12,6 +12,8 @@ defineProps({
   description: String,
   todos: Array,
 });
+
+const emit = defineEmits(["show-details"]);
 </script>
 <template>
   <div
@@ -35,6 +37,7 @@ defineProps({
     </div>
 
     <button
+      @click="emit('show-details')"
       class="w-full text-text bg-primary px-5 py-2 rounded-full font-medium md:w-32 md:py-2"
     >
       Detail
