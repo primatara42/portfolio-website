@@ -107,7 +107,7 @@ const closeModal = () => {
       </div>
       <Teleport to="body">
         <ExperienceModal
-          v-if="isModalOpen"
+          :show="isModalOpen"
           :experience="selectedExperience"
           @close="closeModal"
         />
