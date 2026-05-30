@@ -149,7 +149,7 @@ const closeImagePreview = () => {
   >
     <div
       v-if="isImagePreviewOpen"
-      class="fixed inset-0 bg-black/90 z-[60] flex items-center justify-center p-4"
+      class="fixed inset-0 bg-black/90 z-60 flex items-center justify-center p-4"
       @click="closeImagePreview"
     >
       <div class="relative max-w-6xl max-h-[95vh]" @click.stop>
