@@ -22,7 +22,7 @@ defineProps({
   >
     <!-- Modal -->
     <div
-      class="bg-background text-text w-full max-w-md max-h-[90vh] overflow-y-auto rounded-2xl border-2 border-primary shadow-2xl"
+      class="bg-background text-text w-full max-w-md max-h-[90vh] overflow-y-auto rounded-2xl border-2 border-primary shadow-2xl md:max-w-2xl"
       @click.stop
     >
       <!-- Header -->
