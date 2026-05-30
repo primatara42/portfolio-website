@@ -64,10 +64,14 @@ const selectedExperience = ref(null);
 const openModal = (experience) => {
   selectedExperience.value = experience;
   isModalOpen.value = true;
+  document.body.style.overflow = "hidden";
 };
 
 const closeModal = () => {
   isModalOpen.value = false;
+  selectedExperience.value = null;
+
+  document.body.style.overflow = "auto";
 };
 </script>
 <template>
@@ -101,11 +105,13 @@ const closeModal = () => {
           @show-details="openModal(experience)"
         />
       </div>
-      <ExperienceModal
-        v-if="isModalOpen"
-        :experience="selectedExperience"
-        @close="closeModal"
-      />
+      <Teleport to="body">
+        <ExperienceModal
+          v-if="isModalOpen"
+          :experience="selectedExperience"
+          @close="closeModal"
+        />
+      </Teleport>
     </div>
   </section>
 </template>
