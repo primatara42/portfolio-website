@@ -1,4 +1,5 @@
 <script setup>
+import { ref } from "vue";
 import ExperienceCard from "../components/ExperienceCard.vue";
 import sertificate_assistant_lecturer from "../assets/Sertificate_LecturerAssistant.png";
 import sertificate_gdsc from "../assets/Sertificate_GdscGraduate.png";
@@ -6,6 +7,7 @@ import sertificate_isysrg from "../assets/Sertificate_IsysRG.png";
 import isysrg_icon from "../assets/isysrg.png";
 import gdsc_icon from "../assets/gdsc.png";
 import assistant_lecturer_icon from "../assets/universitas_mdp.png";
+import ExperienceModal from "../components/ExperienceModal.vue";
 
 const experiences = [
   {
@@ -55,6 +57,18 @@ const experiences = [
   //   ],
   // },
 ];
+
+const isModalOpen = ref(false);
+const selectedExperience = ref(null);
+
+const openModal = (experience) => {
+  selectedExperience.value = experience;
+  isModalOpen.value = true;
+};
+
+const closeModal = () => {
+  isModalOpen.value = false;
+};
 </script>
 <template>
   <section
@@ -84,8 +98,14 @@ const experiences = [
           :date="experience.date"
           :description="experience.description"
           :todos="experience.todos"
+          @show-details="openModal(experience)"
         />
       </div>
+      <ExperienceModal
+        v-if="isModalOpen"
+        :experience="selectedExperience"
+        @close="closeModal"
+      />
     </div>
   </section>
 </template>
