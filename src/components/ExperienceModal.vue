@@ -1,4 +1,5 @@
 <script setup>
+import { ref } from "vue";
 import close_icon from "../assets/icons/close.svg";
 import close_icon_white from "../assets/icons/close_white.svg";
 import open_in_full_icon from "../assets/icons/open_in_full.svg";
@@ -12,6 +13,15 @@ const emit = defineEmits(["close"]);
 defineProps({
   experience: Object,
 });
+const isImagePreviewOpen = ref(false);
+
+const openImagePreview = () => {
+  isImagePreviewOpen.value = true;
+};
+
+const closeImagePreview = () => {
+  isImagePreviewOpen.value = false;
+};
 </script>
 
 <template>
@@ -43,6 +53,7 @@ defineProps({
           />
 
           <button
+            @click="openImagePreview"
             class="flex items-center justify-center gap-x-2 bg-primary text-text py-2 px-4 rounded-full font-medium w-full"
           >
             <img :src="open_in_full_icon" alt="" class="w-5 h-5" />
@@ -115,6 +126,26 @@ defineProps({
           <span>Close</span>
         </button>
       </div>
+    </div>
+  </div>
+  <div
+    v-if="isImagePreviewOpen"
+    class="fixed inset-0 bg-black/90 z-[60] flex items-center justify-center p-4"
+    @click="closeImagePreview"
+  >
+    <div class="relative max-w-6xl max-h-[95vh]" @click.stop>
+      <button
+        @click="closeImagePreview"
+        class="absolute top-3 right-3 bg-white rounded-full p-2"
+      >
+        <img :src="close_icon" alt="" />
+      </button>
+
+      <img
+        :src="experience.certificate"
+        alt="Certificate"
+        class="max-w-full max-h-[95vh] object-contain"
+      />
     </div>
   </div>
 </template>
