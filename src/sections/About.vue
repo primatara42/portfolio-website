@@ -70,7 +70,9 @@ import profile_picture from "../assets/profile-picture.png";
       </div>
     </div>
     <div class="hidden md:flex mt-5">
-      <button class="text-text w-36 bg-primary px-7 py-3 rounded-full">
+      <button
+        class="text-text w-36 bg-primary px-7 py-3 rounded-full hover:cursor-pointer hover:opacity-90 transition duration-300"
+      >
         Get My CV
       </button>
     </div>

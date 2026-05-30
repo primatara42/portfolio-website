@@ -57,7 +57,7 @@ import contact_image_background from "../assets/contact_image_background.png";
           />
         </div>
         <button
-          class="text-text font-bold w-60 bg-primary px-7 py-3 rounded-full mx-auto"
+          class="text-text font-bold w-60 bg-primary px-7 py-3 rounded-full mx-auto hover:cursor-pointer hover:opacity-90 transition duration-300"
         >
           Send Message!
         </button>

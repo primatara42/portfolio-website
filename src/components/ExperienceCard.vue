@@ -38,7 +38,7 @@ const emit = defineEmits(["show-details"]);
 
     <button
       @click="emit('show-details')"
-      class="w-full text-text bg-primary px-5 py-2 rounded-full font-medium md:w-32 md:py-2"
+      class="w-full text-text bg-primary px-5 py-2 rounded-full font-medium md:w-32 md:py-2 hover:cursor-pointer hover:opacity-90 transition duration-300"
     >
       Detail
     </button>
