@@ -64,7 +64,7 @@ const closeImagePreview = () => {
 
             <button
               @click="openImagePreview"
-              class="flex items-center justify-center gap-x-2 bg-primary text-text py-2 px-4 rounded-full font-medium w-full"
+              class="flex items-center justify-center gap-x-2 bg-primary text-text py-2 px-4 rounded-full font-medium w-full hover:cursor-pointer hover:opacity-90 transition duration-300"
             >
               <img :src="open_in_full_icon" alt="" class="w-5 h-5" />
               <span>View in Fullscreen</span>
