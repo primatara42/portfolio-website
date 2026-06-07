@@ -2,6 +2,44 @@
 import mail_icon from "../assets/icons/mail-icon.svg";
 import phone_icon from "../assets/icons/phone-icon.svg";
 import contact_image_background from "../assets/contact_image_background.png";
+import { ref, reactive } from "vue";
+import emailjs from "@emailjs/browser";
+
+const form = reactive({
+  name: "",
+  email: "",
+  message: "",
+});
+
+const isLoading = ref(false);
+
+const submitForm = async () => {
+  isLoading.value = true;
+
+  try {
+    await emailjs.send(
+      "service_uc8qq0h",
+      "template_updddql",
+      {
+        from_name: form.name,
+        from_email: form.email,
+        message: form.message,
+      },
+      "-Wn5GNbUD8osVnfHv",
+    );
+
+    alert("Message sent successfully!");
+
+    form.name = "";
+    form.email = "";
+    form.message = "";
+  } catch (error) {
+    console.error(error);
+    alert("Failed to send message.");
+  } finally {
+    isLoading.value = false;
+  }
+};
 </script>
 <template>
   <section class="bg-background px-6 py-10">
@@ -30,9 +68,11 @@ import contact_image_background from "../assets/contact_image_background.png";
       <div class="hidden md:flex md:w-100">
         <img :src="contact_image_background" alt="" />
       </div>
-      <form class="flex flex-col gap-y-3">
+      <form @submit.prevent="submitForm" class="flex flex-col gap-y-3">
         <div class="flex justify-center w-60 items-center mx-auto md:w-100">
           <input
+            required
+            v-model="form.name"
             type="text"
             placeholder="Your Name"
             class="bg-gray-800 text-text px-2 py-2 rounded-lg w-full md:px-5 md:py-5"
@@ -40,6 +80,8 @@ import contact_image_background from "../assets/contact_image_background.png";
         </div>
         <div class="flex justify-center w-60 items-center mx-auto md:w-100">
           <input
+            required
+            v-model="form.email"
             type="email"
             placeholder="Your Email"
             class="bg-gray-800 text-text px-2 py-2 rounded-lg w-full md:px-5 md:py-5"
@@ -47,15 +89,27 @@ import contact_image_background from "../assets/contact_image_background.png";
         </div>
         <div class="flex justify-center w-60 items-center mx-auto md:w-100">
           <textarea
+            required
+            v-model="form.message"
             type="message"
             placeholder="Your Message"
             class="bg-gray-800 text-text px-2 py-2 rounded-lg w-full md:px-5 md:py-5"
           />
         </div>
         <button
-          class="text-text font-bold w-60 bg-primary px-7 py-3 rounded-full mx-auto"
+          type="submit"
+          :disabled="isLoading"
+          class="flex items-center justify-center gap-2 text-text font-bold w-60 bg-primary px-7 py-3 rounded-full mx-auto disabled:opacity-50"
         >
-          Send Message!
+          <template v-if="isLoading">
+            <div
+              class="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"
+            ></div>
+
+            Sending...
+          </template>
+
+          <template v-else> Send Message! </template>
         </button>
       </form>
     </div>
