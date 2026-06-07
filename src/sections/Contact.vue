@@ -75,7 +75,7 @@ const submitForm = async () => {
             v-model="form.name"
             type="text"
             placeholder="Your Name"
-            class="bg-gray-800 text-text px-2 py-2 rounded-lg w-full md:px-5 md:py-5"
+            class="bg-gray-800 text-text px-2 py-2 rounded-lg w-full md:px-5 md:py-5 border border-transparent focus:border-primary focus:outline-none transition-all duration-300"
           />
         </div>
         <div class="flex justify-center w-60 items-center mx-auto md:w-100">
@@ -84,7 +84,7 @@ const submitForm = async () => {
             v-model="form.email"
             type="email"
             placeholder="Your Email"
-            class="bg-gray-800 text-text px-2 py-2 rounded-lg w-full md:px-5 md:py-5"
+            class="bg-gray-800 text-text px-2 py-2 rounded-lg w-full md:px-5 md:py-5 border border-transparent focus:border-primary focus:outline-none transition-all duration-300"
           />
         </div>
         <div class="flex justify-center w-60 items-center mx-auto md:w-100">
@@ -93,7 +93,7 @@ const submitForm = async () => {
             v-model="form.message"
             type="message"
             placeholder="Your Message"
-            class="bg-gray-800 text-text px-2 py-2 rounded-lg w-full md:px-5 md:py-5"
+            class="bg-gray-800 text-text px-2 py-2 rounded-lg w-full md:px-5 md:py-5 border border-transparent focus:border-primary focus:outline-none transition-all duration-300"
           />
         </div>
         <button
