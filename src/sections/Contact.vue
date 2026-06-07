@@ -42,7 +42,7 @@ const submitForm = async () => {
 };
 </script>
 <template>
-  <section class="bg-background px-6 py-10">
+  <section v-scroll-reveal id="contact" class="bg-background px-6 py-10">
     <h1 class="text-text items-center text-center font-bold text-3xl mb-6">
       Let’s get in touch!
     </h1>
