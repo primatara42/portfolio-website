@@ -85,10 +85,11 @@ const closeModal = () => {
         Experience
       </h1>
       <p class="text-text text-base text-center font-normal">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui architecto
-        assumenda officiis ipsam cumque eveniet fuga! Itaque earum, quisquam non
-        laboriosam dolorum, sed quas soluta aspernatur veniam aperiam maiores
-        officiis.
+        Setiap pengalaman memberikan kesempatan bagi saya untuk terus belajar
+        dan berkembang. Melalui keterlibatan dalam komunitas, kegiatan riset,
+        dan pengajaran, saya memperoleh wawasan yang lebih luas mengenai
+        teknologi, kolaborasi tim, dan penerapan solusi untuk menyelesaikan
+        berbagai permasalahan.
       </p>
       <div class="flex flex-col items-center gap-y-5 md:gap-10">
         <ExperienceCard

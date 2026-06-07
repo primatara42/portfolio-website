@@ -9,10 +9,10 @@
       Education
     </h1>
     <p class="text-text text-base text-center font-normal my-6">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui architecto
-      assumenda officiis ipsam cumque eveniet fuga! Itaque earum, quisquam non
-      laboriosam dolorum, sed quas soluta aspernatur veniam aperiam maiores
-      officiis.
+      Pendidikan menjadi langkah awal yang membentuk cara saya memahami dan
+      memecahkan berbagai permasalahan teknologi. Melalui proses pembelajaran,
+      proyek akademik, dan kegiatan pendukung lainnya, saya terus mengembangkan
+      pengetahuan serta keterampilan yang relevan dengan dunia teknologi.
     </p>
     <!-- Timeline -->
     <div class="relative max-w-5xl mx-auto mt-16">

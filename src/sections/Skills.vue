@@ -123,10 +123,10 @@ const skills = [
     </h1>
 
     <p class="text-text text-base text-center font-normal my-6">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe dolor
-      accusamus dignissimos accusantium omnis recusandae excepturi autem
-      voluptates iure itaque! Harum odio dolorum expedita tenetur, quisquam
-      nobis! Sit, fugiat deserunt!
+      Selama proses belajar dan pengembangan diri, saya telah mempelajari
+      berbagai teknologi yang mendukung pengembangan aplikasi dan solusi
+      digital. Berikut adalah beberapa keterampilan dan teknologi yang saya
+      gunakan dalam bidang pengembangan web serta Internet of Things (IoT).
     </p>
 
     <div
