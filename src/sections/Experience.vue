@@ -18,14 +18,14 @@ const experiences = [
     type: "Internship",
     date: "Jul 24 - Jul 25",
     description:
-      "Berpartisipasi dalam kegiatan penelitian di Intelligent System Research Group (IsysRG) dengan fokus pada penerapan kecerdasan buatan dalam pengolahan sinyal kesehatan. Penelitian yang dilakukan berfokus pada pengembangan model deep learning untuk mendukung analisis sinyal elektrokardiogram (EKG) secara otomatis.",
+      "Participated in research activities at the Intelligent Systems Research Group (IsysRG) with a focus on the application of artificial intelligence in healthcare signal processing. The research focused on developing deep learning models to support automated electrocardiogram (ECG) signal analysis.",
     todos: [
-      "Melakukan studi literatur terkait pemrosesan sinyal elektrokardiogram (EKG) dan penerapan deep learning pada data kesehatan.",
-      "Merancang dan mengembangkan model Long Short-Term Memory (LSTM) untuk memprediksi posisi anotasi R-Peak pada beat sinyal EKG.",
-      "Melakukan proses pelatihan dan validasi model menggunakan dataset sinyal EKG.",
-      "Mengevaluasi performa model regresi berdasarkan akurasi prediksi posisi anotasi R-Peak.",
-      "Menganalisis hasil prediksi untuk memastikan kesesuaian model dalam mendukung analisis morfologi sinyal EKG secara otomatis.",
-      "Mendokumentasikan hasil penelitian dan temuan yang diperoleh selama proses pengembangan model.",
+      "Conducting a literature study related to electrocardiogram (ECG) signal processing and the application of deep learning to health data.",
+      "Designing and developing a Long Short-Term Memory (LSTM) model to predict the position of R-Peak annotations on ECG signal beats.",
+      "Performing the model training and validation process using the ECG signal dataset.",
+      "Evaluating the performance of regression models based on the accuracy of R-Peak annotation position prediction.",
+      "Analyze the prediction results to ensure the suitability of the model in supporting automatic ECG signal morphology analysis.",
+      "Documenting research results and findings obtained during the model development process.",
     ],
   },
   {
@@ -35,16 +35,16 @@ const experiences = [
     organization: "GDSC (Google Development Student Club) UNSRI",
     type: "Community",
 
-    date: "Jul 24 - Jul 25",
+    date: "Nov 23 - Aug 24",
     description:
-      "Berpartisipasi dalam program pengembangan talenta teknologi di Google Developer Student Clubs (GDSC) Universitas Sriwijaya sebagai anggota divisi Front End Development. Pengalaman ini membantu saya memperkuat kemampuan teknis di bidang pengembangan web, meningkatkan kemampuan kolaborasi tim, serta memperoleh pengalaman dalam mendukung pelaksanaan kegiatan komunitas teknologi.",
+      "Participated in the technology talent development program at Google Developer Student Clubs (GDSC) at Sriwijaya University as a member of the Front End Development division. This experience helped me strengthen my technical skills in web development, enhance team collaboration, and gain experience supporting technology community activities.",
     todos: [
-      "Mempelajari konsep dan praktik Front End Web Development melalui kegiatan pembelajaran dan proyek komunitas.",
-      "Mengembangkan keterampilan menggunakan HTML, CSS, JavaScript, Tailwind CSS, dan React JS.",
-      "Berkolaborasi dengan anggota dari berbagai divisi dalam kegiatan komunitas dan pengembangan diri.",
-      "Berpartisipasi sebagai panitia dalam penyelenggaraan seminar dan workshop teknologi.",
-      "Membantu koordinasi dan pelaksanaan kegiatan komunitas untuk mendukung proses belajar anggota.",
-      "Memperluas jaringan profesional melalui interaksi dengan mahasiswa dan praktisi teknologi.",
+      "Learn Front End Web Development concepts and practices through learning activities and community projects.",
+      "Develop skills using HTML, CSS, JavaScript, Tailwind CSS, and React JS.",
+      "Collaborate with members from various divisions in community activities and self-development.",
+      "Participate as a committee in organizing technology seminars and workshops.",
+      "Assist in the coordination and implementation of community activities to support members' learning processes.",
+      "Expand professional networks through interactions with technology students and practitioners.",
     ],
   },
   {
@@ -55,14 +55,14 @@ const experiences = [
     type: "Internship",
     date: "Feb 23 - Jun 23",
     description:
-      "Mendukung kegiatan pembelajaran pada mata kuliah Pemrograman Web dengan membantu mahasiswa memahami konsep dan implementasi pengembangan web menggunakan HTML, CSS, JavaScript, dan Vue JS. Selain itu, saya juga terlibat dalam proses evaluasi untuk memantau perkembangan pemahaman mahasiswa selama perkuliahan.",
+      "I support learning activities in Web Programming courses by helping students understand the concepts and implementation of web development using HTML, CSS, JavaScript, and Vue JS. I also participate in the evaluation process to monitor students' progress throughout the course.",
     todos: [
-      "Membantu dosen dalam kegiatan perkuliahan dan praktikum mata kuliah Pemrograman Web.",
-      "Memberikan pendampingan kepada mahasiswa dalam memahami konsep dasar pengembangan web.",
-      "Membimbing mahasiswa dalam implementasi HTML, CSS, JavaScript, dan Vue JS pada tugas dan praktikum.",
-      "Membantu menjawab pertanyaan serta menyelesaikan kendala teknis yang dihadapi mahasiswa selama proses pembelajaran.",
-      "Melakukan evaluasi terhadap tugas dan hasil praktikum mahasiswa sesuai arahan dosen pengampu.",
-      "Mendukung proses penilaian untuk memantau perkembangan pemahaman mahasiswa terhadap materi yang diajarkan.",
+      "Assisting lecturers in lecture and practical activities for Web Programming courses.",
+      "Provide assistance to students in understanding the basic concepts of web development.",
+      "Guiding students in implementing HTML, CSS, JavaScript, and Vue JS in assignments and practicals.",
+      "Help answer questions and resolve technical problems faced by students during the learning process.",
+      "Conduct evaluations of student assignments and practicum results according to the directions of the supervising lecturer.",
+      "Support the assessment process to monitor the development of students' understanding of the material being taught.",
     ],
   },
 ];
@@ -94,11 +94,10 @@ const closeModal = () => {
         Experience
       </h1>
       <p class="text-text text-base text-center font-normal">
-        Setiap pengalaman memberikan kesempatan bagi saya untuk terus belajar
-        dan berkembang. Melalui keterlibatan dalam komunitas, kegiatan riset,
-        dan pengajaran, saya memperoleh wawasan yang lebih luas mengenai
-        teknologi, kolaborasi tim, dan penerapan solusi untuk menyelesaikan
-        berbagai permasalahan.
+        Each experience provides me with an opportunity to continuously learn
+        and grow. Through community involvement, research, and teaching, I've
+        gained a broader understanding of technology, team collaboration, and
+        the application of solutions to various problems.
       </p>
       <div class="flex flex-col items-center gap-y-5 md:gap-10">
         <ExperienceCard

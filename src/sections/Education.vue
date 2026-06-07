@@ -9,10 +9,10 @@
       Education
     </h1>
     <p class="text-text text-base text-center font-normal my-6">
-      Pendidikan menjadi langkah awal yang membentuk cara saya memahami dan
-      memecahkan berbagai permasalahan teknologi. Melalui proses pembelajaran,
-      proyek akademik, dan kegiatan pendukung lainnya, saya terus mengembangkan
-      pengetahuan serta keterampilan yang relevan dengan dunia teknologi.
+      Education was the first step that shaped how I understand and solve
+      various technological problems. Through the learning process, academic
+      projects, and other supporting activities, I continue to develop knowledge
+      and skills relevant to the world of technology.
     </p>
     <!-- Timeline -->
     <div class="relative max-w-5xl mx-auto mt-16">
@@ -34,17 +34,19 @@
         >
           <h2 class="text-3xl font-bold text-primary">Universitas Sriwijaya</h2>
 
-          <h3 class="text-2xl text-primary mt-2">S1 Sistem Komputer</h3>
+          <h3 class="text-2xl text-primary mt-2">
+            Bachelor's Degree in Computer Systems
+          </h3>
 
           <h3 class="text-2xl text-primary mt-2">2023 - 2025</h3>
 
           <p class="text-text text-base leading-relaxed mt-4">
-            Memperdalam pengetahuan di bidang Sistem Komputer dengan fokus pada
-            Internet of Things (IoT) dan Artificial Intelligence (AI), khususnya
-            Machine Learning dan Deep Learning. Melalui kegiatan akademik dan
-            penelitian, saya memperoleh pengalaman dalam pengolahan data,
-            pengembangan model AI, serta penerapan teknologi cerdas untuk
-            mendukung penyelesaian masalah di dunia nyata.
+            Deepening my knowledge in Computer Systems with a focus on the
+            Internet of Things (IoT) and Artificial Intelligence (AI),
+            particularly Machine Learning and Deep Learning. Through academic
+            and research activities, I gained experience in data processing, AI
+            model development, and the application of intelligent technology to
+            support real-world problem solving.
           </p>
         </div>
       </div>
@@ -62,16 +64,17 @@
         >
           <h2 class="text-3xl font-bold text-primary">Universitas Sriwijaya</h2>
 
-          <h3 class="text-2xl text-primary mt-2">D3 Teknik Komputer</h3>
+          <h3 class="text-2xl text-primary mt-2">
+            Associate Degree in Computer Engineering
+          </h3>
 
           <h3 class="text-2xl text-primary mt-2">2018 - 2022</h3>
 
           <p class="text-white text-base leading-relaxed mt-4">
-            Menempuh pendidikan di bidang Teknik Komputer dengan fokus pada
-            pemrograman, sistem elektronika, jaringan komputer, dan Internet of
-            Things (IoT). Program ini memberikan fondasi yang kuat dalam
-            perancangan sistem berbasis perangkat keras dan perangkat lunak
-            untuk menyelesaikan berbagai permasalahan teknologi.
+            Study Computer Engineering with a focus on programming, electronic
+            systems, computer networks, and the Internet of Things (IoT). This
+            program provides a strong foundation in designing hardware and
+            software-based systems to solve various technological problems.
           </p>
         </div>
       </div>

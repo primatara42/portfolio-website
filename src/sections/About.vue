@@ -26,13 +26,12 @@ import profile_picture from "../assets/profile-picture.png";
       </div>
       <div class="flex">
         <p class="text-text text-sm text-center font-normal">
-          Lulusan Sistem Komputer Universitas Sriwijaya yang memiliki
-          ketertarikan dan pengalaman di bidang Web Development, Internet of
-          Things (IoT), dan UI/UX Design. Terbiasa mengembangkan aplikasi web
-          modern menggunakan Tailwind CSS, React JS, Vue JS, PHP, Laravel, dan
-          MySQL, serta memiliki pengalaman dalam merancang dan
-          mengimplementasikan proyek IoT berbasis perangkat cerdas dan
-          komunikasi data.
+          A Computer Systems graduate from Sriwijaya University with an interest
+          and experience in Web Development, Internet of Things (IoT), and UI/UX
+          Design. Experienced in developing modern web applications using
+          Tailwind CSS, React JS, Vue JS, PHP, Laravel, and MySQL, and has
+          experience designing and implementing IoT projects based on smart
+          devices and data communications.
         </p>
       </div>
       <button class="text-text w-36 bg-primary px-7 py-3 rounded-full mx-auto">
@@ -49,13 +48,12 @@ import profile_picture from "../assets/profile-picture.png";
           >
         </h1>
         <p class="text-text text-base font-normal">
-          Lulusan Sistem Komputer Universitas Sriwijaya yang memiliki
-          ketertarikan dan pengalaman di bidang Web Development, Internet of
-          Things (IoT), dan UI/UX Design. Terbiasa mengembangkan aplikasi web
-          modern menggunakan Tailwind CSS, React JS, Vue JS, PHP, Laravel, dan
-          MySQL, serta memiliki pengalaman dalam merancang dan
-          mengimplementasikan proyek IoT berbasis perangkat cerdas dan
-          komunikasi data.
+          A Computer Systems graduate from Sriwijaya University with an interest
+          and experience in Web Development, Internet of Things (IoT), and UI/UX
+          Design. Experienced in developing modern web applications using
+          Tailwind CSS, React JS, Vue JS, PHP, Laravel, and MySQL, and has
+          experience designing and implementing IoT projects based on smart
+          devices and data communications.
         </p>
       </div>
       <div>

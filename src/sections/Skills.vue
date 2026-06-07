@@ -123,10 +123,10 @@ const skills = [
     </h1>
 
     <p class="text-text text-base text-center font-normal my-6">
-      Selama proses belajar dan pengembangan diri, saya telah mempelajari
-      berbagai teknologi yang mendukung pengembangan aplikasi dan solusi
-      digital. Berikut adalah beberapa keterampilan dan teknologi yang saya
-      gunakan dalam bidang pengembangan web serta Internet of Things (IoT).
+      During my learning and self-development process, I have learned various
+      technologies that support the development of digital applications and
+      solutions. Below are some of the skills and technologies I use in web
+      development and the Internet of Things (IoT).
     </p>
 
     <div
