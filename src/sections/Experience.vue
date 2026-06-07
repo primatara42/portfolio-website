@@ -14,48 +14,57 @@ const experiences = [
     title: "Research Assistant",
     icon: isysrg_icon,
     certificate: sertificate_isysrg,
-    organization: "IsysRG",
+    organization: "IsysRG (Intelligence Research System Group)",
     type: "Internship",
     date: "Jul 24 - Jul 25",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui architecto assumenda officiis ipsam cumque eveniet fuga! Itaque earum, quisquam non laboriosam dolorum, sed quas soluta aspernatur veniam aperiam maiores officiis.",
+      "Berpartisipasi dalam kegiatan penelitian di Intelligent System Research Group (IsysRG) dengan fokus pada penerapan kecerdasan buatan dalam pengolahan sinyal kesehatan. Penelitian yang dilakukan berfokus pada pengembangan model deep learning untuk mendukung analisis sinyal elektrokardiogram (EKG) secara otomatis.",
     todos: [
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+      "Melakukan studi literatur terkait pemrosesan sinyal elektrokardiogram (EKG) dan penerapan deep learning pada data kesehatan.",
+      "Merancang dan mengembangkan model Long Short-Term Memory (LSTM) untuk memprediksi posisi anotasi R-Peak pada beat sinyal EKG.",
+      "Melakukan proses pelatihan dan validasi model menggunakan dataset sinyal EKG.",
+      "Mengevaluasi performa model regresi berdasarkan akurasi prediksi posisi anotasi R-Peak.",
+      "Menganalisis hasil prediksi untuk memastikan kesesuaian model dalam mendukung analisis morfologi sinyal EKG secara otomatis.",
+      "Mendokumentasikan hasil penelitian dan temuan yang diperoleh selama proses pengembangan model.",
     ],
   },
   {
     title: "Member of the Front-End Web Development Division at GDSC UNSRI",
     icon: gdsc_icon,
     certificate: sertificate_gdsc,
-    organization: "Google Development Student Club",
+    organization: "GDSC (Google Development Student Club) UNSRI",
     type: "Community",
 
     date: "Jul 24 - Jul 25",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui architecto assumenda officiis ipsam cumque eveniet fuga! Itaque earum, quisquam non laboriosam dolorum, sed quas soluta aspernatur veniam aperiam maiores officiis.",
+      "Berpartisipasi dalam program pengembangan talenta teknologi di Google Developer Student Clubs (GDSC) Universitas Sriwijaya sebagai anggota divisi Front End Development. Pengalaman ini membantu saya memperkuat kemampuan teknis di bidang pengembangan web, meningkatkan kemampuan kolaborasi tim, serta memperoleh pengalaman dalam mendukung pelaksanaan kegiatan komunitas teknologi.",
     todos: [
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+      "Mempelajari konsep dan praktik Front End Web Development melalui kegiatan pembelajaran dan proyek komunitas.",
+      "Mengembangkan keterampilan menggunakan HTML, CSS, JavaScript, Tailwind CSS, dan React JS.",
+      "Berkolaborasi dengan anggota dari berbagai divisi dalam kegiatan komunitas dan pengembangan diri.",
+      "Berpartisipasi sebagai panitia dalam penyelenggaraan seminar dan workshop teknologi.",
+      "Membantu koordinasi dan pelaksanaan kegiatan komunitas untuk mendukung proses belajar anggota.",
+      "Memperluas jaringan profesional melalui interaksi dengan mahasiswa dan praktisi teknologi.",
     ],
   },
-  // {
-  //   title: "Assistant Lecturer",
-  //   icon: assistant_lecturer_icon,
-  //   certificate: sertificate_assistant_lecturer,
-  //   organization: "Universitas Multi Data Palembang",
-  //   type: "Internship",
-  //   date: "Feb 23 - Jun 23",
-  //   description:
-  //     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui architecto assumenda officiis ipsam cumque eveniet fuga! Itaque earum, quisquam non laboriosam dolorum, sed quas soluta aspernatur veniam aperiam maiores officiis.",
-  //   todos: [
-  //     "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-  //     "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-  //     "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-  //   ],
-  // },
+  {
+    title: "Assistant Lecturer",
+    icon: assistant_lecturer_icon,
+    certificate: sertificate_assistant_lecturer,
+    organization: "Universitas Multi Data Palembang",
+    type: "Internship",
+    date: "Feb 23 - Jun 23",
+    description:
+      "Mendukung kegiatan pembelajaran pada mata kuliah Pemrograman Web dengan membantu mahasiswa memahami konsep dan implementasi pengembangan web menggunakan HTML, CSS, JavaScript, dan Vue JS. Selain itu, saya juga terlibat dalam proses evaluasi untuk memantau perkembangan pemahaman mahasiswa selama perkuliahan.",
+    todos: [
+      "Membantu dosen dalam kegiatan perkuliahan dan praktikum mata kuliah Pemrograman Web.",
+      "Memberikan pendampingan kepada mahasiswa dalam memahami konsep dasar pengembangan web.",
+      "Membimbing mahasiswa dalam implementasi HTML, CSS, JavaScript, dan Vue JS pada tugas dan praktikum.",
+      "Membantu menjawab pertanyaan serta menyelesaikan kendala teknis yang dihadapi mahasiswa selama proses pembelajaran.",
+      "Melakukan evaluasi terhadap tugas dan hasil praktikum mahasiswa sesuai arahan dosen pengampu.",
+      "Mendukung proses penilaian untuk memantau perkembangan pemahaman mahasiswa terhadap materi yang diajarkan.",
+    ],
+  },
 ];
 
 const isModalOpen = ref(false);
