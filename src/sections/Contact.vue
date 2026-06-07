@@ -42,11 +42,7 @@ const submitForm = async () => {
 };
 </script>
 <template>
-  <section
-    v-scroll-reveal
-    id="contact"
-    class="bg-background px-6 pt-17 pb-10 md:pt-25 md:mb-5"
-  >
+  <section class="bg-background px-6 py-10">
     <h1 class="text-text items-center text-center font-bold text-3xl mb-6">
       Let’s get in touch!
     </h1>
@@ -101,7 +97,9 @@ const submitForm = async () => {
           />
         </div>
         <button
-          class="text-text font-bold w-60 bg-primary px-7 py-3 rounded-full mx-auto"
+          type="submit"
+          :disabled="isLoading"
+          class="flex items-center justify-center gap-2 text-text font-bold w-60 bg-primary px-7 py-3 rounded-full mx-auto disabled:opacity-50 hover:cursor-pointer hover:opacity-90 transition duration-300"
         >
           <template v-if="isLoading">
             <div
