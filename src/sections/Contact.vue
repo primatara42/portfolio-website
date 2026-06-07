@@ -99,7 +99,7 @@ const submitForm = async () => {
         <button
           type="submit"
           :disabled="isLoading"
-          class="flex items-center justify-center gap-2 text-text font-bold w-60 bg-primary px-7 py-3 rounded-full mx-auto disabled:opacity-50"
+          class="flex items-center justify-center gap-2 text-text font-bold w-60 bg-primary px-7 py-3 rounded-full mx-auto disabled:opacity-50 hover:cursor-pointer hover:opacity-90 transition duration-300"
         >
           <template v-if="isLoading">
             <div
