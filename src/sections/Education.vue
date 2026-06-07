@@ -39,8 +39,12 @@
           <h3 class="text-2xl text-primary mt-2">2023 - 2025</h3>
 
           <p class="text-text text-base leading-relaxed mt-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Gravida
-            interdum eu congue elit.
+            Memperdalam pengetahuan di bidang Sistem Komputer dengan fokus pada
+            Internet of Things (IoT) dan Artificial Intelligence (AI), khususnya
+            Machine Learning dan Deep Learning. Melalui kegiatan akademik dan
+            penelitian, saya memperoleh pengalaman dalam pengolahan data,
+            pengembangan model AI, serta penerapan teknologi cerdas untuk
+            mendukung penyelesaian masalah di dunia nyata.
           </p>
         </div>
       </div>
@@ -63,8 +67,11 @@
           <h3 class="text-2xl text-primary mt-2">2018 - 2022</h3>
 
           <p class="text-white text-base leading-relaxed mt-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Gravida
-            interdum eu congue elit.
+            Menempuh pendidikan di bidang Teknik Komputer dengan fokus pada
+            pemrograman, sistem elektronika, jaringan komputer, dan Internet of
+            Things (IoT). Program ini memberikan fondasi yang kuat dalam
+            perancangan sistem berbasis perangkat keras dan perangkat lunak
+            untuk menyelesaikan berbagai permasalahan teknologi.
           </p>
         </div>
       </div>
