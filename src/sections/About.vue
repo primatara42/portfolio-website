@@ -34,9 +34,14 @@ import profile_picture from "../assets/profile-picture.png";
           devices and data communications.
         </p>
       </div>
-      <button class="text-text w-36 bg-primary px-7 py-3 rounded-full mx-auto">
+      <a
+        href="/cv-prima-putra-agusantara.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="text-center text-text w-36 bg-primary px-7 py-3 rounded-full mx-auto"
+      >
         Get My CV
-      </button>
+      </a>
     </div>
 
     <div class="hidden md:flex justify-between items-center">
@@ -68,11 +73,14 @@ import profile_picture from "../assets/profile-picture.png";
       </div>
     </div>
     <div class="hidden md:flex mt-5">
-      <button
-        class="text-text w-36 bg-primary px-7 py-3 rounded-full hover:cursor-pointer hover:opacity-90 transition duration-300"
+      <a
+        href="/cv-prima-putra-agusantara.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="text-center text-text w-36 bg-primary px-7 py-3 rounded-full hover:cursor-pointer hover:opacity-90 transition duration-300"
       >
         Get My CV
-      </button>
+      </a>
     </div>
   </main>
 </template>
